@@ -111,7 +111,7 @@ class DGKernel:
 
         self.logger.info("Registered service: %s", name)
 
-    def get_service(self, name: str) -> object:
+        def get_service(self, name: str) -> object:
         """
         Return a registered service.
         """
