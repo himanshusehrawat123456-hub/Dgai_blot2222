@@ -85,10 +85,12 @@ class DGKernel:
 
         except Exception as exc:
 
-            raise KernelInitializationError(
+            raise 
+        KernelInitializationError(
                 str(exc)
             ) from exc
-            def register_service(self, name: str, service: object) -> None:
+        def register_service(self, name: 
+        str, service: object) -> None:
         """
         Register a service with the kernel.
         """
